@@ -1,0 +1,9 @@
+on: [push]
+
+jobs:
+  scan_job:
+    runs-on: ubuntu-latest
+    name: Testing foss scanner
+    steps:
+      - name: Foss Scan
+        uses: docker://saurabhthatte/foss-scan:v2
