@@ -1,4 +1,6 @@
-on: [push]
+name: Securitydeep Scan
+
+on: [push, workflow_dispatch]
 
 jobs:
   scan_job:
