@@ -8,4 +8,4 @@ jobs:
     name: Foss scanner
     steps:
       - name: Run foss Scan
-        uses: sdthatte/actions/foss@master
+        uses: sdthatte/actions/foss@main
