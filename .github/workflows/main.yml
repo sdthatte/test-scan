@@ -9,3 +9,5 @@ jobs:
     steps:
       - name: Run foss Scan
         uses: sdthatte/actions/foss@main
+        with:
+          threshold: "critical 1 high 10"
